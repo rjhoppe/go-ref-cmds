@@ -11,10 +11,18 @@ Creates a go.mod file to track all of your project's dependencies
 ```
 go mod init [rjhoppe/repo-name]
 ```
+
+Check to make sure all imports are satisfied. Checks that all modules downloaded are needed for a go build
+```
 go mod tidy
+```
 
-go get github/com/go-package-destination
+Downloads the named package by the import path along with dependencies
+```
+go get [github/com/go-package-destination]
+```
 
-go mod init goenv
-
+Run a main.go Go file
+```
 go run main.go
+```
