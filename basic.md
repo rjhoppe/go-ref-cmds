@@ -2,6 +2,7 @@ First initialize your Git environment
 ```
 git init
 ```
+
 Add a remote origin
 ```
 git remote add origin https://github.com/remote-repo-name/
@@ -23,6 +24,10 @@ go get [github/com/go-package-destination]
 ```
 
 Run a main.go Go file
+```
+go run .
+```
+Or
 ```
 go run main.go
 ```
